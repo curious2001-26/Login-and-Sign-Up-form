@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Sign up form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container"> 
+        <!-- code for creating a new account -->
+        <form class="form" id="CreateAccount">
+            <h1 class="form_title">Sign Up</h1>
+            <div class="form_message form_message_error"></div>
+            <div class="form-input-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-input" autofocus>
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <label for="EmailAddress">Email</label>
+                <input type="text" class="form-input" autofocus>
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-input"  >
+                <i class="far fa-eye" id="togglePassword"></i>
+                <div class="form-input-error-message"></div>
+            </div>
+            <div class="form-input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-input" autofocus>
+                <i class="far fa-eye" id="togglePassword"></i>
+                <div class="form-input-error-message"></div>
+            </div>
+            <button class="form-button" type="submit">Sign Up</button>
+            <div class="wrapper">
+                <h4><span>Or connect with</span></h4>
+                <div class="media">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-microsoft"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="form-text">
+                <a class="form-link" href="/index2.html" id="linkLogin">Already have an Account? Login</a>
+            </p>
+        </form>
+        
+    </div>
+</body>
+
+</html>
